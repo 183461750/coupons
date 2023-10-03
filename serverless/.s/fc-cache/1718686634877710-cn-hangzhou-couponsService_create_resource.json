@@ -1,9 +1,0 @@
-{
-  "serviceName": "couponsService",
-  "functionNames": [
-    "couponsService/couponsFc"
-  ],
-  "domains": [
-    "couponsfc.couponsservice.1718686634877710.cn-hangzhou.fc.devsapp.net"
-  ]
-}
