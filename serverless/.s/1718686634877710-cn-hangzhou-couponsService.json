@@ -1,0 +1,44 @@
+{
+  "statefulConfig": {
+    "serviceName": "couponsService",
+    "description": "",
+    "role": "acs:ram::1718686634877710:role/aliyunfcdefaultrole",
+    "logConfig": {
+      "project": "",
+      "logstore": "",
+      "enableRequestMetrics": false,
+      "enableInstanceMetrics": false,
+      "logBeginRule": "None"
+    },
+    "serviceId": "31f5133d-688e-4b92-98bd-316bb853e238",
+    "createdTime": "2023-10-03T03:23:03Z",
+    "lastModifiedTime": "2023-10-03T03:38:39Z",
+    "vpcConfig": {
+      "vpcId": "",
+      "vSwitchIds": [],
+      "securityGroupId": "",
+      "role": null,
+      "anytunnelViaENI": null
+    },
+    "internetAccess": true,
+    "nasConfig": {
+      "userId": -1,
+      "groupId": -1,
+      "mountPoints": []
+    },
+    "ossMountConfig": {
+      "mountPoints": []
+    },
+    "vendorConfig": null,
+    "tracingConfig": {
+      "type": null,
+      "params": null,
+      "jaegerConfig": null
+    },
+    "useSLRAuthentication": false,
+    "name": "couponsService"
+  },
+  "statefulAutoConfig": {
+    "role": "acs:ram::1718686634877710:role/aliyunfcdefaultrole"
+  }
+}

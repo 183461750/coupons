@@ -1,0 +1,30 @@
+{
+  "statefulConfig": {
+    "triggerName": "httpTrigger",
+    "description": "",
+    "triggerId": "09166346-1007-4993-8c5c-87b1f80ffdfb",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": "LATEST",
+    "urlInternet": "https://couponsfc-couponsservice-nvccydgwib.cn-hangzhou.fcapp.run",
+    "urlIntranet": "https://couponsfc-couponsservice-nvccydgwib.cn-hangzhou-vpc.fcapp.run",
+    "triggerConfig": {
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "authType": "anonymous",
+      "disableURLInternet": false
+    },
+    "createdTime": "2023-10-03T03:23:05Z",
+    "lastModifiedTime": "2023-10-03T03:38:39Z",
+    "status": null,
+    "targetArn": null,
+    "name": "httpTrigger"
+  }
+}
