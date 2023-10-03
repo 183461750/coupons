@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:mainline-alpine-slim
 WORKDIR /usr/share/nginx/html
 RUN rm -rf *
 ADD ./code .
